@@ -463,12 +463,13 @@ iframe {
 
     @media (max-width: 1000px) {
         p, li, .lead {
-            font-size: 1.1em;
+            font-size: 0.9em;
         }
         .btn-fix{
             position: relative;
             top: 3em;
         }
+
 
         .contact-innerbg {
             -webkit-box-shadow: 5px 17px 23px -8px #DADDDE;
@@ -565,5 +566,8 @@ iframe {
         margin-left: 0.5em;
         /* display: none; */
         /* margin-top: 1em; */
+    }
+    .contactTxt{
+        padding-left: 0 !important;
     }
 }
