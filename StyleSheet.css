@@ -1,4 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
 
 body {
@@ -73,7 +73,6 @@ header {
     background-repeat: no-repeat;
     display: inline-block;
     width: 33px;
-    margin: 1em;
 }
 #facebookIcon {
     background-image: url('Images/Group 14.svg');
@@ -157,7 +156,7 @@ margin-bottom: 0.5em;
     position: relative;
     /* right: 45%; */
     /* margin: 1em 0; */
-    margin: 0 auto;
+    margin: 0.5em auto;
 }
 
 #decor2 {
@@ -424,6 +423,9 @@ iframe {
         position: relative;
         top: 7em;
     }
+   .icons{
+       margin: 1em;
+   }
 }
 
     @media (max-width: 1200px) {
@@ -528,6 +530,10 @@ iframe {
         .big-vid {
             height: 25vh !important;
         }
+        .contact-innerbg{
+            position: relative;
+            top:4em;
+        }
     }
 @media (min-width:1200px) and (max-width:1500px) {
   #decor7{
@@ -550,5 +556,14 @@ iframe {
     .bgColor {
         background-color: white;
         padding: initial;
+    }
+    .icons {
+        height: 34px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 34px;
+        margin-left: 0.5em;
+        /* display: none; */
+        /* margin-top: 1em; */
     }
 }
